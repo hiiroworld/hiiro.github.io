@@ -1,0 +1,54 @@
+/*タブレット向け*/
+@media all and(max-width:1000px){
+  .moment{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+
+  .headig h2{
+    font-size: 20px;
+  }
+}
+
+/*スマホ向け*/
+@media all and(max-width:670px){
+  .moment{
+    width: 100%;
+  }
+
+  .btn{
+    width: 100%;
+  }
+
+  .Twitter1{
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper{
+    text-align: left;
+  }
+
+  .headig-right{
+    display: none;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  .top-wrapper h1{
+    font-size: 24px;
+  }
+
+  .top-wrapper p{
+    font-size: 14px;
+  }
+}
