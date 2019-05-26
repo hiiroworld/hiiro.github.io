@@ -1,0 +1,221 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN",sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clear{
+  clear: left;
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.bing.com/th?id=OIP.xSjpKYKGGG4_ZtsKRN7_3QHaE8&w=266&h=178&c=7&o=5&pid=1.7);
+background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p{
+  opacity: 0.7;
+}
+
+.btn-wrapper{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p{
+  margin: 10px 0;
+}
+
+.signup{
+  background-color: #ffc0cb;
+}
+
+.Twitter1{
+  background-color: #adff2f;
+  margin-right: 10px;
+}
+
+
+.twitter{
+  background-color: #add8e6;
+}
+
+.btn{
+  padding: 8px 24px;
+  color: black;
+  opacity: 0.7;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.fab{
+  margin-right: 10px;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color:white;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo{
+  font-size: 40px;
+  padding: 10px 0;
+  color: #00bfff;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a{
+  line-height: 60px;
+  padding: 0 10px;
+  color: red;
+  display: block;
+  float: left;
+  transition: all 0.5;
+}
+
+.header-right a:hover{
+  background-color: rgba( 255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+}
+
+.menu-icon{
+  display: none;
+}
+
+.lesson-wrapper{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2{
+  font-weight: normal;
+}
+
+.moment{
+  float: left;
+  width: 25%;
+}
+
+.moment-icon{
+  position: relative;
+}
+
+.moment-icon p{
+  position: absolute;
+  font-size: 40px;
+  top: 35%;
+  width: 100%;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.text-contents{
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3{
+  font-weight: normal;
+  text-decoration:wavy #0bd;
+}
+
+.message-wrapper{
+  border-bottom: 2px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message{
+  padding: 15px 40px;
+  background-color: #ffb6c1;
+  cursor: pointer;
+  box-shadow: 2px 7px #db7093;
+}
+
+.message:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer{
+  background-color: #191970;
+  color: #ffffff;
+  height: 100px;
+}
+
+.footer-logo{
+  float: left;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.footer-list li{
+  list-style: none;
+}
+
+.footer-list{
+float: right;
+padding-bottom: 10px;
+padding-right: 15px;
+}
