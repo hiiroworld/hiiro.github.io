@@ -1,12 +1,17 @@
 /*タブレット向け*/
-@media all and(max-width:1000px){
+@media all and (max-width: 1000px){
   .moment{
     width: 50%;
     margin-bottom: 50px;
   }
 
-  footer{
-    text-align: center;
+  .footer-logo{
+    font-size: 18px;
+  }
+
+  .footer-list{
+    font-size: 8px;
+    margin-right: 3px;
   }
 
   .top-wrapper h1{
@@ -19,7 +24,7 @@
 }
 
 /*スマホ向け*/
-@media all and(max-width:670px){
+@media all and (max-width: 670px){
   .moment{
     width: 100%;
   }
